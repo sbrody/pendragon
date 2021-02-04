@@ -1,0 +1,189 @@
+/*
+ Theme Name:   Pendragon
+ Description:  Pendragon Country House theme
+ Author:       Sim Brody
+ Author URI:   https://simbrody.co.uk
+ Template:     kadence
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  pendragon
+*/
+
+/**----- Font -----*/
+
+@font-face {
+    font-family: 'BonVivant';
+    src: url('BonVivant.woff2');
+    src: url('BonVivant.woff');
+}
+
+/*--- Headers ----*/
+
+h1 {
+    font-family: 'BonVivant', serif !important;
+    font-weight: bold;
+}
+
+#main .single-content h2 {
+    margin: 0.8em 0 0.3em;
+}
+
+#main .inner-column-2 h2, #main .inner-column-1 h2, #main .inner-column-3 h2 {
+    margin-top: 0;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+#main .inner-column-2 h3, #main .inner-column-1 h3, #main .inner-column-3 h3 {
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+#main .single-entry .entry-header {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.home #main .single-entry .entry-header {
+    position: absolute;
+    top: 35vh;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.home #main .single-entry h1 {
+    color: #fff;
+    max-width: 760px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 50px #333;
+}
+
+.home #main .single-entry h1, .home #main .single-entry h1 .letter {
+    opacity: 0;
+}
+
+@media screen and (min-width: 960px) {
+    #main .single-entry .entry-header {
+        position: absolute;
+        top: 35vh;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        z-index: 5;
+    }
+    #main .single-entry h1 {
+        color: #fff;
+        max-width: 760px;
+        margin: 0 auto;
+        text-shadow: 1px 1px 50px #333;
+    }
+}
+
+#main .single-entry h1, #main .single-entry h1 .letter {
+    opacity: 0;
+}
+
+#secondary-menu a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.site-top-header-wrap {
+    background-color: #1a202c;
+}
+
+/*--- Main content ----*/
+
+#main .single-content p {
+    margin: 0.5em auto 0;
+    max-width: 760px;
+}
+
+#main .single-content h2, #main .single-content h3 {
+    max-width: 960px;
+    margin: 2rem auto;
+}
+
+#main .single-content {
+    margin-top: 0;
+}
+
+#main .wp-block-embed-youtube {
+    max-width: 960px;
+    margin: 4em auto;
+}
+
+.badges-container .wp-block-kadence-column {
+    justify-content: center;
+    align-items: center;
+}
+
+.badges-container .wp-block-kadence-column img {
+    max-width: 140px;
+}
+
+.post-thumbnail {
+    filter: brightness(0.9);
+}
+
+#main .cottages-container h2, #main .room-container h2, #main .cottages-container h3, #main .room-container h3 {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+}
+
+.map-container .kt-inside-inner-col {
+    height: 100%;
+}
+
+.map-container .kt-inside-inner-col iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.pricing-container .wp-block-kadence-column {
+    max-width: 540px;
+}
+
+#main .pricing-container .kt-row-column-wrap {
+    justify-content: center;
+    align-items: center;
+}
+
+.statement-box .info-box {
+    min-height: 332px;
+}
+
+.full-width-cols h3, .full-width-cols p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*--- Footer ---*/
+
+#colophon #media_image-2 {
+    margin-left: -20px;
+}
+
+#colophon #media_image-2 img {
+    max-width: 200px !important;
+}
+
+/*--- Home ----*/
+
+/* .home .entry-header {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+} */
+
+.home .single-content {
+    margin-top: 0;
+}
